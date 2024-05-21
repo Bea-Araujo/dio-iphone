@@ -23,8 +23,8 @@ public class Iphone implements AparelhoTelefonico, NavegadorDeInternet, Reprodut
     }
 
     @Override
-    public void selecionarMusica() {
-        System.out.println("Selecioanr música");
+    public void selecionarMusica(String musica) {
+        System.out.println("Selecioanr música: " + musica);
     }
 
     @Override
